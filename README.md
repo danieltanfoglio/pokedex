@@ -10,7 +10,7 @@
 
   - Visualizzazione di 50 celebri Pokémon recuperati tramite PokeAPI.
   - Modale Dettagliata: Cliccando su un Pokémon si apre un popup con HP, Attacco e Abilità.
-  - 
+    
 ## 3. Sistema di Battaglia
 
    - Fase di Selezione: Scelta tra 3 Pokémon generati casualmente.
