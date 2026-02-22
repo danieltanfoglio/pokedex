@@ -1,16 +1,47 @@
-# React + Vite
+# Pixel Pokedex Walkthrough
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have completed the Pokedex project with a retro pixelated style, a dataset of 50 Pokemon, and a functional battle system.
 
-Currently, two official plugins are available:
+## Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Retro Design System
+- **Pixelated Aesthetic**: Used `image-rendering: pixelated;` and "Press Start 2P" typography.
+- **Grainy Overlay**: Added an animated SVG noise filter for a "vintage cartoon" feel.
+- **CRT Scanlines**: Implemented a scanline overlay to complete the retro look.
 
-## React Compiler
+### 2. Pokedex Grid
+- Displays 50 famous Pokemon fetched from PokeAPI.
+- **Detailed Modal**: Clicking a Pokemon opens a popup with HP, Attack, and Abilities.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3. Battle System
+- **Selection Phase**: Choose from 3 random Pokemon.
+- **Boss Fight**: Battle against a powerful Boss (Mewtwo) with turn-based logic.
+- **Visual Feedback**: Health bars animate based on damage, and logs track the battle progress.
+- **Win State**: Confetti celebration upon defeating the boss.
 
-## Expanding the ESLint configuration
+## Verification Results
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Build & Functionality
+- `npm run build` executed successfully.
+- All components (Home, Dex, Battle) are responsive and functional.
+
+## UI Demonstration
+
+- **Homepage**
+![Homepage](home.png)
+
+- **Pokedex Grid**
+![Pokedex Grid](griglia.png)
+
+- **Pokemon Details**
+![Pokemon Details](modello.png)
+
+- **Battle Selection**
+![Battle Selection](battaglia.png)
+
+- **Battle vs Mewtwo**
+![Battle vs Mewtwo]("schermo%20battaglia.png")
+
+### Video Tutorial
+![Demo Video](video.webp)
+
