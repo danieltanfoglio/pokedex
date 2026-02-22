@@ -40,7 +40,7 @@ I have completed the Pokedex project with a retro pixelated style, a dataset of 
 ![Battle Selection](battaglia.png)
 
 - **Battle vs Mewtwo**
-![Battle vs Mewtwo]("schermo%20battaglia.png")
+![Battle vs Mewtwo](<schermo battaglia.png>)
 
 ### Video Tutorial
 ![Demo Video](video.webp)
