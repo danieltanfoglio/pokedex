@@ -1,31 +1,31 @@
 # Pixel Pokedex Walkthrough
 
-I have completed the Pokedex project with a retro pixelated style, a dataset of 50 Pokemon, and a functional battle system.
+## 1. Sistema di Design Retro
 
-## Features Implemented
+   - Estetica Pixelata: Utilizzo di image-rendering: pixelated; e del font "Press Start 2P".
+   - Overlay Granulare: Aggiunto un filtro rumore SVG animato per un effetto "vintage cartoon".
+   - Linee di Scansione CRT: Implementato un overlay a linee (scanlines) per completare il look retro.
 
-### 1. Retro Design System
-- **Pixelated Aesthetic**: Used `image-rendering: pixelated;` and "Press Start 2P" typography.
-- **Grainy Overlay**: Added an animated SVG noise filter for a "vintage cartoon" feel.
-- **CRT Scanlines**: Implemented a scanline overlay to complete the retro look.
+## 2. Griglia del Pokédex
 
-### 2. Pokedex Grid
-- Displays 50 famous Pokemon fetched from PokeAPI.
-- **Detailed Modal**: Clicking a Pokemon opens a popup with HP, Attack, and Abilities.
+  - Visualizzazione di 50 celebri Pokémon recuperati tramite PokeAPI.
+  - Modale Dettagliata: Cliccando su un Pokémon si apre un popup con HP, Attacco e Abilità.
+  - 
+## 3. Sistema di Battaglia
 
-### 3. Battle System
-- **Selection Phase**: Choose from 3 random Pokemon.
-- **Boss Fight**: Battle against a powerful Boss (Mewtwo) with turn-based logic.
-- **Visual Feedback**: Health bars animate based on damage, and logs track the battle progress.
-- **Win State**: Confetti celebration upon defeating the boss.
+   - Fase di Selezione: Scelta tra 3 Pokémon generati casualmente.
+   - Scontro con il Boss: Battaglia contro un potente Boss (Mewtwo) con logica a turni.
+   - Feedback Visivo: Le barre della salute si animano in base al danno e un registro (log) traccia l'andamento dello scontro.
+   - Stato di Vittoria: Celebrazione con coriandoli (confetti) alla sconfitta del boss.
 
-## Verification Results
+# Risultati della Verifica
+### Build e Funzionalità
 
-### Build & Functionality
-- `npm run build` executed successfully.
-- All components (Home, Dex, Battle) are responsive and functional.
+  - Comando `npm run build` eseguito con successo.
+  - Tutti i componenti (Home, Dex, Battle) sono responsive e funzionanti.
+  - Dimostrazione dell'interfaccia utente completata.
 
-## UI Demonstration
+## Galleria
 
 - **Homepage**
 ![Homepage](home.png)
